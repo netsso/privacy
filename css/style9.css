@@ -1,0 +1,1429 @@
+h1,h2,h3,h4,h5,h6,p,a{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	color: #282F50;
+}
+
+h1{
+	font-size: 2em;
+
+}
+
+h2{
+	font-size: 1.750em;
+
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+h4{
+	font-size: 1.125em;
+
+}
+
+p{
+	font-size: 1.2em;
+	/* color: #6e6e6e; */
+	color: #000;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+svg{
+	display: block;
+	width: 200px;
+	height: auto;
+	margin-top: -16px;
+}
+
+.no-margins{
+	margin: 0;
+	padding: 0;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #f8f8f8;
+	color: #A2B527;
+}
+
+.navbar-default .navbar-nav > a, .navbar-default .navbar-nav > li{
+    text-transform: uppercase;
+}
+
+.navbar-blog{
+	background-color: #ffffff;
+}
+
+.section{
+	padding: 80px 0;
+}
+
+.grey{
+	background-color: #fcfcfc;
+}
+
+.section-netsso-modules{
+	margin-bottom: 40px;
+	padding: 40px 0;
+}
+
+.section-netsso-modules img{
+	cursor: pointer;
+}
+
+
+/*NAVBAR*/
+
+.btn-login{
+	background-color: #fff;
+	color: #777;
+	font-size: 1em;
+	font-weight: 100;
+	letter-spacing: 1px;
+    margin: -10px -10px 0 -10px;
+
+}
+
+.navbar-brand img{
+	width: 180px;
+	display: block;
+	height: auto;
+	margin-top: -14px;
+}
+
+.navbar{
+	padding: 10px;
+}
+
+
+/*HERO*/
+
+.home-hero{
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/hero-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: -20px;
+	overflow: hidden;
+}
+
+.home-hero h1{
+	margin-top: 160px;
+	margin-bottom: 40px;
+	font-size: 2.313em;
+	font-weight: 700;
+	color: #fff;
+}
+.sso{
+	color: #276AB1;
+}
+
+.home-hero button{
+	background-color: #276AB1;
+	border: none;
+	color: #fff;
+	font-weight: 300;
+	font-size: 1.313em;
+	letter-spacing: 1px;
+	padding: 5px 36px;
+	border-radius: 10px;
+}
+
+.fa-angle-right{
+	padding-top: 2px;
+}
+
+.home-hero button:hover{
+	background-color: #205A98;
+}
+
+.home-hero img{
+	margin: 160px 0 0 0;
+}
+
+.bar-under-hero{
+	color: #fff;
+	background-color: #A2B527;
+	margin-top: -1px;
+}
+.bar-under-hero p{
+	color: #fff;
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+/*ICONS*/
+
+.home-icons{
+	margin-top: -80px;
+}
+
+.home-icons p{
+	margin-bottom: 40px;
+}
+
+.learn-more-under-icon{
+	background-color: #00B94F;
+	padding: 8px 40px;
+	border-radius: 19px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 10px;
+	margin-top: -40px;
+}
+
+.learn-more-under-icon:hover{
+	color:#fff;
+	background-color:#46CC7F;
+}
+
+.text-under-icons h2{
+	font-size: 1.375em;
+}
+
+
+
+/*<!-- NETSSO MODULES -->*/
+
+.under-icons{
+	margin-top: -60px;
+}
+
+.first-section h1{
+	line-height: 31px;
+	font-weight: 400;
+}
+
+.netsso-modules{
+	/* margin-top: -40px; */
+	margin-top: 50px;
+}
+
+.netsso-modules h2{
+	padding: 0;
+	margin: 0;
+}
+
+.small-line{
+	height: 1px;
+	width: 100px;
+	background-color: #282F50;
+	margin: 10px auto 0px auto;
+
+
+}
+
+
+.learn-more{
+	background-color: #ED6702;
+	padding: 5px 25px;
+	color: #fff;
+	border-radius: 50px;
+	margin-top: 10px;
+}
+
+.video {
+    padding-top: 10px;
+
+}
+
+.btn-video{
+    background-color: #EA5754;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+.btn-video:hover{
+    background-color: #ED6702;
+    color: #23214A;
+}
+
+/* NETSSO DESKTOP IMAGE */
+
+.desktop-image{
+	font-size: 1em;
+	margin-top: 20px;
+	color:#726D6D;
+}
+
+.text-under-desktop-image p{
+	color:#525252;
+	font-size: 1.250em;
+	margin-top: 10px;
+}
+
+/* WHY USE NETSSO? */
+
+.why-use-netsso h3{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.why-use-netsso p{
+	margin: 50px 0;
+}
+
+.start-free-netsso{
+	text-transform: uppercase;
+	color:#fff;
+	background-color: #2BD067;
+	padding:20px 40px;
+	margin-bottom: 50px;
+}
+
+/*internet-data-organizer*/
+
+.internet-data-organizer p{
+	margin-bottom: 40px;
+}
+
+.module-number{
+    color: #fff;
+    background-color: #66A6DA;
+    border-radius: 1000px;
+    padding: 5px 12px;
+    margin-right: 4px;
+    border: 2px solid #706CB2;
+
+}
+
+/*EU*/
+
+.eu{
+	background-image: url('../img/home-eu.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 40px 0;
+}
+
+.eu h3{
+	color: #fff;
+	font-weight: 700;
+}
+
+.eu p{
+	color: #fff;
+	font-weight: 100;
+}
+
+.eu-button{
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 5px 40px;
+	margin-top: 20px;
+}
+
+.eu-button:hover{
+	color: #ccc;
+}
+
+/*SOME APPLICATIONS*/
+
+.some-applications{
+	/* margin-top: -20px; */
+}
+
+.some-applications h3{
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+.some-applications h4{
+	margin: 20px 0;
+	font-weight: 700;
+}
+
+/*SOME POINTS*/
+
+.some-points h3{
+	font-weight: 700;
+	/*margin-bottom: 40px;*/
+}
+
+.some-points h4{
+	font-weight: 700;
+}
+.some-points img{
+	margin-top: 40px;
+    width: auto;
+    height: 66px;
+}
+
+/*TRUSTED BY*/
+
+.trusted-by{
+	padding: 40px 0;
+	border-top: 1px solid #ED6702;
+
+}
+
+
+.trusted-by img{
+	max-height: 100px;
+}
+
+.trusted-by-section{
+	margin-top: 40px;
+}
+
+/*FOOTER*/
+
+
+
+footer{
+	margin: 0;
+	background-color: #282F50;
+	padding: 20px 0;
+
+}
+
+.footer-social{
+	margin-top: 10px;
+}
+
+footer h4{
+	font-weight: 700;
+}
+
+footer p{
+	margin-bottom: 5px;
+    font-size: 1em;
+}
+
+footer a:hover{
+	color: #fff;
+}
+
+footer p:hover{
+}
+
+footer h4, footer p{
+	color: #fff;
+}
+
+.footer a:hover{
+	text-decoration: none;
+
+}
+
+.footer a{
+	color: #8FF0DB;
+}
+
+.footer a > p:hover{
+	color: #C68A8A;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-youtube, .fa-linkedin-in{
+	font-size: 2em;
+	margin-left: 10px;
+}
+
+.footer-social.fa-facebook-f:hover{
+    color: #3b5999;
+}
+.footer-social.fa-twitter:hover{
+    color: #55acee;
+}
+.footer-social.fa-google-plus-g:hover{
+    color: #dd4b39;
+}
+.footer-social.fa-linkedin-in:hover{
+    color: #0077B5;
+}
+
+.asdesign{
+	background-color: #202640;
+}
+
+.asdesign p{
+	color: #fff;
+	padding-top: 10px;
+
+}
+
+.asdesign a{
+	color: #8FF0DB;
+}
+
+.asdesign a:hover{
+	color: #fff;
+	text-decoration: none;
+
+}
+
+/*===============================
+========PASSWORD MANAGER=======
+===============================*/
+
+.hero-pages{
+    background-image: url('../img/hero-pages-1200x150-01.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 150px;
+}
+
+.hero-pages h1{
+	 vertical-align: middle;
+	line-height: 130px;  /*<-- this is what you must define */
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 1.75em;
+
+}
+
+.password-manager img{
+/*	margin-top: 40px;*/
+}
+
+.password-manager h2{
+/*	font-weight:700;*/
+    margin-bottom: 20px;
+}
+
+.try-now-button{
+	background-color: #ED6702;
+	color:#fff;
+	padding-top: 5px ;
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+	font-weight: 300;
+	border-radius: 0;
+	margin-top: 40px;
+    border-radius: 50px;
+}
+
+.login-bookmark h3{
+	margin-bottom: 80px;
+	font-weight: 700;
+}
+
+.login-bookmark img{
+/*	margin-top: 40px;*/
+}
+
+.green-bar-large{
+	background-color: #81C14B;
+	margin-top: -40px;
+	padding: 40px 0;
+	color: #81C14B;
+
+}
+.green-bar-large a{
+	color: #81C14B;
+}
+.button-green-bar{
+	padding: 5px 20px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.green-bar-large h3{
+	font-size: 2em;
+	color: #fff;
+	font-weight: 700;
+}
+.green-bar-large p{
+	font-size: 1.25em;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-top: -10px;
+}
+
+
+/*===============================
+========Internet Data Organizere=======
+===============================*/
+.encryption-third-section{
+	margin-top: 80px;
+}
+.encryption-first-section h2{
+	margin: 40px 0 40px ;
+}
+.encryption-third-section h3,
+.encryption-fourth-section h3,
+.encryption-fifth-section h3,
+.encryption-sixth-section h3{
+	margin: 0px 0 40px;
+}
+
+.encryption-third-section p{
+	/*margin-bottom: 40px;*/
+}
+.encryption-third-section img{
+	margin: 40px 0 0 0;
+}
+
+.encryption-fourth-section{
+	margin-top: 80px;
+}
+
+.encryption-fourth-section button,
+.encryption-fifth-section button,
+.encryption-sixth-section button{
+	margin-top: 40px;
+}
+.encryption-fourth-section img, .encryption-sixth-section img{
+	margin-top: 40px;
+}
+
+/*===============================
+========        J-NET.   =======
+===============================*/
+
+.j-net h3{
+	margin-bottom: 40px;
+}
+.j-net h2{
+	margin-top: 0;
+	padding-top: 0;
+}
+.j-net-special-section{
+	margin: 0 0 40px 0;
+	padding: 40px 0;
+	background-color: #282E3A;
+}
+
+.j-net-special-section h4{
+	color: #fff;
+	font-style: italic;
+}
+
+.j-net-image{
+	margin-top: 60px;
+}
+
+/*=================================================
+========      File Encryption & Manager   =======
+==================================================*/
+
+.functionality-dropbox {
+	background-color: #282E3A;
+	color: #fff;
+	padding: 80px 0;
+}
+.functionality-dropbox h2{
+	color: #fff;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	font-size: 1.6em;
+
+}
+
+.functionality-dropbox p{
+	color: #fff;
+}
+
+.functionality-dropbox a{
+	color: #81C14B;
+}
+
+.functionality-dropbox a:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+
+.sharing-encrypted-files-img{
+	margin-top: 80px;
+}
+
+
+/*=================================================
+====================      BLOG   =================
+==================================================*/
+
+.blog h4{
+	font-weight: 400;
+}
+
+.blog a{
+	color: #706CB1;
+}
+
+.panel-body{
+/*    height: 200px;*/
+/*    overflow-y: scroll;*/
+}
+
+hr{
+    margin: 8px 0;
+}
+
+.blog-read-more-button{
+	color: #fff;
+	background-color: #F37074;
+	padding: 5px 40px;
+	margin: 20px 0 40px 0;
+}
+.main-blog {
+	font-size: 1.2em;
+	margin: 10px 8px 0 0;
+	padding: 0;
+	color: #706CB2;
+}
+
+
+.blog-read-more-button:hover{
+	background-color: #D8696C;
+	color: #fcfcfc;
+}
+
+.blog-read-more:hover{
+	background-color: #D05D61;
+	color: #fff;
+}
+
+.btn-blog-search{
+	margin-top: -34px;
+}
+
+.blog-last-news{
+	background-color: #fcfcfc;
+	padding-top: 20px;
+	border-top: 5px solid #706CB1;
+	padding: 20px;
+	margin-bottom: 40px;
+
+}
+
+.scroll{
+	height: 200px;
+	overflow-y: scroll;
+}
+
+
+.blog-last-news img{
+	float: left;
+	margin-right: 20px;
+}
+.blog-last-news h4{
+	margin: 0 0 20px 0;
+	font-weight: 400;
+}
+.blog-last-news a{
+	color: #706CB1;
+}
+
+/*=================================================
+=============== NEW MAIN PAGE BLOG  ===============
+==================================================*/
+
+/* SIDEBAR */
+
+.main-blog-sidebar-box{
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+}
+
+.main-blog-sidebar-box h2{
+	font-size: 1em;
+	font-weight: 700;
+	margin:0;
+	padding: 0;
+}
+.main-blog-sidebar-box p{
+	font-size: .8em;
+	font-weight: 500;
+	/* margin-top: -8px; */
+	color: #7B8088;
+}
+
+.subscription-form{
+	margin-top: -70px;
+	height: 80px;
+}
+.subscribe-input{
+	border: 1px solid #CBCBCB;
+	font-size: 1em;
+}
+.subscribe-button{
+	text-transform: uppercase;
+	background-color: #46CC7F;
+	color: #fff;
+	font-size: .8em;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.line-main-blog-tags{
+	border: .5px solid #CBCBCB;
+	width: 100%;
+	height:1px;
+	margin: 6px 0;
+}
+
+.main-blog-sidebar-tag{
+	font-size: .8em;
+	font-weight: 500;
+	margin: 4px 0 4px 0;
+	background-color: #A4AE9C;
+	padding: 3% 6%;
+	display: inline-block;
+	color: #fff;
+	border-radius: 21px;
+
+}
+.main-blog-slides-videos{
+	height: 160px;
+	overflow-x: scroll;
+}
+.main-blog-slides-videos h2{
+	margin-bottom: 10px;
+}
+.main-blog-slides-videos li{
+	font-size: 1em;
+	color: #706CB1;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+/* END SIDEBAR */
+
+.main-blog-body-color{
+	background-color: #F8F8F9;
+}
+.main-blog-section{
+	margin: 80px 0 20px 0;
+}
+.main-blog-post-container{
+	/* height: 450px; */
+	/* width: auto; */
+	overflow: hidden;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 15px;
+	width: 100%;
+	display: block;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+}
+
+.main-blog-post-container img{
+	margin: 0 auto;
+}
+.main-blog-image{
+	width: 100%;
+  height: auto;
+}
+.main-blog-post-container h1{
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.main-blog-tags, .main-blog-date{
+	font-size: 1em;
+	margin-top: -8px;
+}
+
+.main-blog-tags a{
+	color: #46CC7F;
+}
+.main-blog-tags a:hover{
+	color: #385745;
+}
+.main-blog-description{
+	font-size: 1em;
+	color: #7B8088;
+}
+.blog-main-soacil{
+	float: right;
+	padding-left: 10px;
+	opacity: .7;
+}
+.blog-main-soacil:hover{
+	opacity: 1;
+}
+
+/* Pagination */
+.pagination li{
+	display: inline-block;
+}
+
+.pages li{
+	display: inline-block;
+	font-size: 1em;
+	font-weight: 500;
+	color: #3597EC;
+	margin: 0px 5px 5px 5px;
+}
+
+
+.page-active{
+	border: 1px solid #3597EC;
+	padding: 5px 10px;
+}
+
+
+/*End Pagination */
+
+/*=================================================
+====================      NEW !!!  BLOG SINGLE POST   =================
+==================================================*/
+
+.navbar-blog{
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+}
+
+.blog-top-section{
+	margin-top: 80px;
+}
+
+.blog-active{
+	background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .blog-active > a, .navbar-default .navbar-nav > .blog-active > a:hover, .navbar-default .navbar-nav > .blog-active > a:focus{
+	color: #A2B527;
+}
+
+.single-blog h3{
+	font-size: 2.5em;
+	color: ##323233;
+	margin-top: 0;
+}
+
+.single-blog-tag-under-title a{
+	font-size: 1em;
+	color: #46CC7F;
+	font-weight: 500;
+	text-decoration: none;
+}
+.single-blog-tag-under-title a:hover{
+	/* color: #00BF8C; */
+	color: #385745;
+}
+
+.blog-single-date, .blog-single-author, .main-blog-date{
+	font-size: 1em;
+	color: #BCBFC2;
+}
+.blog-single-author a{
+	color: #3597EC;
+	text-decoration: none;
+}
+
+.blog-single-author a:hover{
+	color:#4A35EC;
+}
+
+.blog-single-author, .blog-single-date, .single-blog-tag-under-title{
+	margin-top: -7px;
+}
+.blog-single-author img{
+	float: right;
+	margin-left: 10px;
+}
+.single-blog-line{
+	height: 1px;
+	width: 100%;
+	background-color: #EDEBEB;
+	margin-bottom: 16px;
+}
+.single-blog-image{
+	margin-bottom: 20px;
+}
+.single-blog-article p{
+	font-size: 1.em;
+	color: #333333;
+	font-weight: 100;
+}
+
+.realated-post-single-blog h5{
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+.realated-post-single-blog p {
+	margin-top: -10px;
+	color: #7B8088;
+	font-size: 1em
+}
+.realated-post-single-blog p > a {
+	color: #46CC7F;
+	font-weight: 500;
+	text-decoration: none;
+}
+.realated-post-single-blog p > a:hover {
+	color: #385745;
+}
+
+.realated-post-single-blog p:last-child {
+	margin-top: 20px;
+}
+
+.read-more-single-blog{
+	color: #3597EC;
+}
+
+.free-trial-blog{
+	background-color: #81C14B;
+	padding: 70px 0;
+	margin: 20px 0 0 0;
+}
+.free-trial-blog h3{
+	font-size: 1.75em;
+}
+.free-trial-blog p, .free-trial-blog h3, .free-trial-blog a {
+	color: #ffffff;
+}
+
+.free-trial-blog p{
+	margin-bottom: 40px;
+}
+
+.free-trial-blog a{
+	border: 1px solid #fff;
+	padding: 17px 40px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.free-trial-blog a:hover{
+	background-color: #fff;
+	color: #81C14B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================
+====================      BLOG 2  =================
+==================================================*/
+
+.left-column{
+	float: left;
+	width: 56%;
+	overflow: hidden;
+	padding: 0 20px;
+	margin-left: 8vw;
+}
+
+.main-blog.fa-facebook-f{
+    color: #3b5998;
+}
+
+.main-blog.fa-twitter{
+    color: 1DA1F2;
+}
+
+.main-blog.a-linkedin{
+    color: #0077B5;
+}
+
+.main-blog.fa-google-plus-g{
+    color: #DB4437;
+}
+
+.main-blog.fa-at{
+    color: #DC5249;
+}
+
+.left-column h3{
+	font-weight: 600;
+}
+
+.left-column a{
+	color: #706CB1;
+}
+
+.left-column p{
+	margin-bottom: 40px;
+}
+
+.right-column{
+	float: right;
+	width: 24%;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.blog-tips{
+	border-top: 5px solid #2CB534;
+}
+
+
+.blog-slides-videos{
+	border-top: 5px solid #EA5754;
+}
+
+.blog-cloud h5{
+	padding: 0px 4px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.blog-cloud{
+
+}
+
+.blog-sidebar-color-latest-post{
+    background-color: #F4F4EF;
+}
+
+.blog-sidebar-color-tips{
+    background-color: #F8F2EB;
+}
+
+.blog-sidebar-color-video{
+    background-color: #F2FAF2;
+}
+
+.blog-sidebar-color-cloud{
+    background-color: #FFF4F4;
+}
+
+.clearfix{
+	float: none;
+}
+
+.blog-sidebar img{
+    float: left;
+    margin-right: 20px;
+}
+
+/*=================================================
+====================      BLOG SINGLE POST   =================
+==================================================*/
+
+.date{
+	margin-top: -12px;
+}
+
+.blog-social{
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.first-p-single-blog{
+	margin-top: 40px;
+}
+
+.fa-file-alt{
+	color: #1ABE8D;
+}
+
+/*=================================================
+====================  CONTACT US  =================
+==================================================*/
+
+
+form{
+	margin: 80px 0;
+	text-align: right;
+}
+
+
+input{
+	border: none;
+	border-bottom: 1px solid #81C14B;
+	margin-bottom: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textarea{
+	border: none;
+	border-bottom: 1px solid #81C14B;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+/*  color: #D3D4D5;*/
+    color: #535353;
+    font-size: 1.2em;
+}
+::-moz-placeholder { /* Firefox 19+ */
+/*  color: #D3D4D5;*/
+    color: #535353;
+    font-size: 1.2em;
+
+}
+:-ms-input-placeholder { /* IE 10+ */
+/*  color: #D3D4D5;*/
+    color: #535353;
+    font-size: 1.2em;
+
+}
+:-moz-placeholder { /* Firefox 18- */
+/*  color: #D3D4D5;*/
+    color: #535353;
+    font-size: 1.2em;
+}
+
+/*=================================================
+====================  TERSM & CONDIRTIONS  =================
+==================================================*/
+
+.terms h2{
+    font-weight: 500;
+}
+.terms p:last-child{
+    margin-bottom: 80px;
+}
+
+
+/*=================================================
+====================  LOGIN  =================
+==================================================*/
+
+/*NEW STYLE*/
+
+.login-wrapper{
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    width: 355px;
+    -webkit-box-shadow: 0px 0px 46px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 46px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 46px -7px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+.login-wrapper img{
+    margin: 20px 0;
+}
+
+.login-wrapper h1{
+    font-size: 2em;
+    font-weight: 700;
+    color: #706CB2;
+    margin-bottom: 20px;
+}
+
+.login-wrapper h1 small{
+    color: #706CB2;
+    font-weight: 100
+}
+
+.login-wrapper p{
+    color: #706CB2;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.login-wrapper form{
+    width: 270px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 20px
+
+}
+
+.login-wrapper form > input{
+    width: 280px;
+    border-bottom: .5px solid #95989A;
+}
+
+.login-remember{
+    color: #95989A;
+    font-weight: 400;
+    letter-spacing: 1px
+}
+
+.forget-password{
+    color: red;
+    font-size: .8em;
+}
+
+.login-btn{
+    margin-top: 30px;
+    padding: 10px 70px;
+    border-radius: 1000px;
+    background-color: #7B7AD8;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin: 30px auto 20px auto;
+    display: block;
+}
+.login-close{
+    position: absolute;
+    top: 24px;
+    right: 14px;
+    font-size: 2em;
+    color: #95989A;
+
+}
+
+/*=================================================
+====================  SIGNUP  =================
+==================================================*/
+
+.signup{
+    background-color: #ECEEF1;
+}
+
+.signup img{
+    height: auto;
+    width: 273px;
+    margin-bottom: 30px;
+}
+
+.signup-wrapper{
+    background-color: #fff;
+    padding: 20px 80px;
+    border: .5px solid #6666;
+
+}
+
+.signup-wrapper h1, .signup-wrapper h2{
+    font-weight: 700;
+    color: #4D4D4D;
+
+}
+
+.signup-wrapper h2{
+    font-size: 1.5em;
+    margin-top: 80px;
+}
+
+.signup-wrapper p{
+    margin-top: 20px;
+}
+
+.signup-wrapper p span{
+    color: red;
+    font-weight: 700;
+}
+
+.signup-wrapper p:nth-child(2){
+    padding-bottom: 10px;
+}
+
+.form-wrapper{
+    background-color: yellow;
+/*    min-width: 100%;*/
+}
+
+.signup-wrapper form{
+    text-align: left;
+    margin: 80px 0 0 0;
+    overflow: hidden;
+    float: none;
+    display: block;
+}
+
+.signup-wrapper input{
+    border-bottom: .5px solid #F2F3F3;
+    padding: 6px;
+
+}
+
+input[type="text"],input[type="password"] {
+    width: 100%;
+}
+
+.select{
+    color: #666;
+}
+
+.signup-wrapper select{
+    color: #666;
+    border: 1px solid #6666;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.signup-terms{
+    color: #B7B5D8;
+    font-size: 1em;
+}
+
+.read-terms{
+    font-size: 1em;
+    color: #95989A;
+}
+
+.signup-btn{
+    margin-left: 0;
+}
+
+.signup-footer p{
+    font-size: .8em;
+    color: #4D4D4D;
+    margin: 20px 0;
+}
+
+/*=================================================
+====================  MEDIA QUERIES  =================
+==================================================*/
+@media only screen and (max-width: 1200px){
+	.main-blog-slides-videos li{
+		font-size: .9em;
+		padding: 4px 0;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.left-column{
+		width: 70%;
+		margin: 0;
+		padding: 0 20px;
+	}
+
+
+}
+
+@media only screen and (max-width: 767px){
+    .left-column{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 531px){
+
+    .signup-wrapper{
+        padding: 20px 10px;
+    }
+    .hero-pages h1{
+        font-size: 1.2em;
+        }
+
+    .img-mobile-margin{
+        margin-top: 20px;
+    }
+
+    .module-number{
+        display: none;
+    }
+
+}
